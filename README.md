@@ -66,9 +66,9 @@ close_wait问题处理方案
 ## 总结  
 我们通过这样的方式就可以轻松的解决大量设备与服务器通讯的问题，若后面有更多的设备请求只需添加更多的socket服务器即可。当然可能大家担心分发服务器受不了，其实这是多余的，因为分发服务器只做转发，而且完成处理以后就直接把链接给释放，并且当设备拿到socket服务器的ip地址以后就将不在访问分发服务器了，它的压力是可控的不会特别也不会频繁。
 
-基于此原理封装的框架Socket Delivery Server 
+## Socket Delivery Server 
 
-![SDS](https://github.com/1991wangliang/sds)
+ SDS是基于此原理封装的高可用框架，源码请参考：![SDS](https://github.com/1991wangliang/sds)
 
 
 关于distribute-netty：
