@@ -4,7 +4,7 @@
 物联网如今是一个大的趋势，但是概念还比较新颖。大家对这一块的技术积累也比较匮乏，借此前段时间摩拜单车出现了大规模瘫痪的现象。我们今天来讨论一下物联网项目的开发方式。
 
 ## Socket Delivery Server 
-SDS是基于此原理封装的高可用框架，源码请参考：![SDS](https://github.com/1991wangliang/sds)
+SDS是基于此原理封装的高可用框架，源码请参考：[SDS](https://github.com/1991wangliang/sds)
 
 ## 关于tcp/ip 相关的知识点
 
